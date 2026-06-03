@@ -2,5 +2,7 @@
   "name": "Yala Logistics",
   "description": "Professional logistics and supply chain solutions provider established in 2021, offering global freight, warehousing, and distribution services.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

@@ -55,7 +55,7 @@
   }
   
   .btn-premium {
-    @apply relative overflow-hidden px-10 py-5 bg-brand-primary text-white font-black uppercase tracking-[0.3em] text-[10px] transition-all duration-500 hover:shadow-[0_20px_50px_rgba(15,23,42,0.3)] active:scale-95 disabled:opacity-50;
+    @apply relative overflow-hidden px-10 py-5 bg-brand-primary text-white font-black uppercase tracking-[0.3em] text-[10px] transition-all duration-500 hover:shadow-[0_20px_50px_rgba(15,23,42,0.3)] active:scale-95 disabled:opacity-50 dark:bg-brand-gold dark:text-brand-primary;
   }
 
   .btn-premium::after {
@@ -72,7 +72,7 @@
   }
 
   .card-premium {
-    @apply bg-white border border-slate-100 p-8 md:p-12 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.08)] hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] transition-all duration-700 rounded-sm;
+    @apply bg-white border border-slate-100 p-8 md:p-12 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.08)] hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] transition-all duration-700 rounded-sm dark:bg-white/5 dark:border-white/5 dark:text-white;
   }
 
   .section-heading-label {
@@ -80,7 +80,7 @@
   }
   
   .input-premium {
-    @apply w-full px-6 py-5 bg-slate-50 border-b-2 border-slate-100 focus:outline-none focus:border-brand-gold focus:bg-white transition-all text-sm font-bold uppercase tracking-tight placeholder:text-slate-300;
+    @apply w-full px-6 py-5 bg-slate-50 border-b-2 border-slate-100 focus:outline-none focus:border-brand-gold focus:bg-white transition-all text-sm font-bold uppercase tracking-tight placeholder:text-slate-300 dark:bg-white/5 dark:border-white/10 dark:text-white dark:focus:bg-white/10 dark:placeholder:text-white/20;
   }
 }
 
