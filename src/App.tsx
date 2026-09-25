@@ -894,7 +894,10 @@ export default function App() {
         <div className={`max-w-7xl mx-auto px-6 mt-24 pt-12 border-t flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-black uppercase tracking-[0.3em] relative z-10 transition-colors ${
           isDarkMode ? "border-white/5 text-white/20" : "border-brand-primary/5 text-brand-primary/20"
         }`}>
-           <span>&copy; {new Date().getFullYear()} Yala Logistics Pvt. Ltd.</span>
+           <span>
+             &copy; {new Date().getFullYear()} Yala Logistics Pvt. Ltd. · Website by{' '}
+             <a href="https://www.madebycodecraft.com" target="_blank" rel="noopener" className="hover:text-brand-gold transition-colors">CodeCraft</a>
+           </span>
            <div className="flex gap-12">
               <span 
                 onClick={() => setView('admin')}
